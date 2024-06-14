@@ -1,89 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+<style>@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
+</style>* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    margin-top: 10px;
 }
 
 body {
     font-family: "Poppins", sans-serif;
 }
 
-/* navbar style start here */
+/* <!-- nav bar setion start heare --> */
+.header {
+    background-color: yellowgreen;
+}
+
 .header-section {
-    max-width: 1170px;
+    max-width: 1200px;
+    /* background-color: yellowgreen; */
     margin: 0 auto;
     /* border: 2px solid blue; */
     display: flex;
-}
-
-.nav-container img {
-    width: 50px;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 .nav-container {
     /* border: 2px solid red; */
-    min-height: 20px;
+    min-height: 50px;
     display: flex;
     /* justify-content: center; */
-    align-items: center;
-    /* border: 2px solid blue; */
+    /* align-items: center; */
     width: 50%;
+    align-items: center;
+}
+
+.nav-container img {
+    width: 40px;
+    /* object-fit: cover; */
 }
 
 .nav-container p {
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 25px;
 }
 
 .special {
-    color: rgb(255, 84, 0);
+    color:
+        rgb(255, 84, 0);
+    font-weight: 900;
 }
 
 .items-container {
-    /* border: 2px solid yellow; */
+    /* border: 2px solid green; */
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .items-container a {
     text-decoration: none;
-}
-
-.home-link {
-    color: rgb(255, 84, 0);
-    font-weight: 700;
-    font-size: 18px;
-}
-
-.packages-link {
+    font-size: 20px;
     color: rgb(66, 66, 71);
-    font-size: 18px;
-    font-weight: 400;
+    margin-left: 20px;
 }
 
-.testimonial-link {
-    font-weight: 400;
-    font-size: 18px;
-    color: rgb(66, 66, 71);
+.menu-button {
+    display: none;
 }
 
-.blog-link {
-    color: rgb(66, 66, 71);
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.contact-link {
-    color: rgb(66, 66, 71);
-    font-size: 18px;
-    font-weight: 400;
-}
+/* banar section start heare */
 
 #newsletter {
     position: relative;
@@ -92,86 +78,211 @@ body {
         linear-gradient(to bottom, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0)),
         url('/Images/Group 13 (1) (1).png');
     background-repeat: no-repeat;
-    width: 1170px;
+    width: 100%;
+    max-width: 1170px;
     height: 500px;
-    left: 380px;
-    top: 40px;
+    margin: 40px auto;
+    /* left: 380px;
+    top: 40px; */
     border-radius: 16px;
-
-
+    padding: 40px 20px;
+    box-sizing: border-box;
 }
-
-.form {
-
-    display: flex;
-    margin-left: 20px;
-    margin-top: 100px;
-    justify-content: space-between;
-    width: 800px;
-    background-color: rgba(255, 255, 255, 0.3);
-    /* background-color,width: 850px; */
-    
-    height: 94px;
-    
-    margin-left: 180px;
-    /* height: 52px; */
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    border-radius: 8px;
-}
-
-
 
 .main-title {
     position: relative;
-    width: 596px;
+    width: 576px;
     left: 275px;
-    top: 70px;
+    top: 20px;
     color: rgb(255, 255, 255);
     font-size: 60px;
     text-align: center;
+    margin-top: 5px;
 }
 
 .description {
     position: relative;
     color: rgb(255, 255, 255);
-    width: 676px;
-    left: 247px;
-    top: 75px;
+    font-size: 13px;
     text-align: center;
+    max-width: 576px;
+    font-weight: 400;
+    margin: 0 auto;
+    top: 5px;
+    /* left: 250px; */
+}
+
+.form {
+    /* margin-top: 400px; */
+    display: flex;
+    margin: 0 auto;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin-top: 30px;
+    width: 70%;
+
+}
+
+.form input,
+.form select,
+.form button {
+    width: 100%;
+    max-width: 250px;
+    /* margin: 100px 0; */
+    /* padding: 10px; */
+    margin-left: 20px;
+
 }
 
 .go {
-    width: 174px;
+    position: relative;
+    width: 30px;
+    height: 32px;
+    border-radius: 10px;
     height: 52px;
-    border-radius: 8px;
-    padding-left: 16px;
 }
 
-.select-time,
+.select-time {
+    position: relative;
+    width: 40%;
+    height: 55px;
+    border-radius: 10px;
+
+}
+
 .select-season {
-    width: 174px;
-    height: 52px;
-    padding-left: 16px;
-    border-radius: 8px;
-    
+    position: relative;
+    width: 40%;
+    height: 55px;
+    border-radius: 10px;
 }
 
 .btn-find {
-    width: 174px;
-    height: 52px;
-    /* text-align: center; */
-    border-radius: 8px;
+    position: relative;
+    width: 40%;
+    height: 58px;
+    border-radius: 10px;
     background: rgb(255, 84, 0);
-    border: none;
-    color: rgb(255, 255, 255);
-    /* align-items: center; */
-    padding-bottom: 8px;
 }
 
-.popular-tours{
+#popular-tours {
     display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    /* margin-left: 50px; */
+    gap: 55px;
+}
+
+.tours {
+    position: relative;
+    width: 577px;
+    height: auto;
+    /* height: 466px; */
+    /* left: 350px; */
+}
+
+.mountain img {
+    /* left: 1200px; */
+    width: 100%;
+    height: auto;
+    max-width: 577px;
+}
+
+.btn-color {
+    color: aliceblue;
+    border: none;
+}
+
+.btn {
+    position: relative;
+    width: 200px;
+    height: 58px;
+    left: 0px;
+    bottom: -200px;
+    background: rgb(255, 84, 0);
+    border-radius: 12px;
+
+}
+
+.destination-section {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card-maldives {
+    position: relative;
+    display: inline-block;
+}
+
+.card-maldives img {
+    width: 100%;
+    display: block;
+}
+
+.banner-name-1 {
+    position: absolute;
+    bottom: 110px;
+    left: 245px;
+
+}
+
+.maldives-color {
+    color: white;
+}
+
+.card-Indonesia {
+    position: relative;
+    display: inline-block;
+}
+
+.banner-name-2 {
+    position: absolute;
+    bottom: 110px;
+    left: 245px;
+}
+
+.Indonesia-clor {
+    color: white;
+}
+
+.snk{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 23px;
+}
+.card-name-6{
     
-    
+}
+
+.bangladesh{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card-name-6{
+    position: relative;
+    display: inline-block;
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+}
+
+.card-img{
+    width: 100%;
+    display: block;
+}
+
+.card-name-6,card-name-7,card-name-9,card-name-11,card-name0-10{
+    position: absolute;
+    bottom: 110px;
+    left: 245px;
 }
