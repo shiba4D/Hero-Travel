@@ -1,288 +1,217 @@
-<style>@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-</style>* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Poppins", sans-serif;
-}
-
-/* <!-- nav bar setion start heare --> */
-.header {
-    background-color: yellowgreen;
-}
-
-.header-section {
-    max-width: 1200px;
-    /* background-color: yellowgreen; */
-    margin: 0 auto;
-    /* border: 2px solid blue; */
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-}
-
 .nav-container {
-    /* border: 2px solid red; */
-    min-height: 50px;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    width: 50%;
     align-items: center;
+    gap: 20px;
+    font-size: 26px;
+    font-weight: 800;
+    padding-top: 30px;
+    justify-content: center;
 }
 
 .nav-container img {
-    width: 40px;
-    /* object-fit: cover; */
+    width: 50px;
+    padding-top: 30px;
 }
 
 .nav-container p {
-    font-size: 25px;
+    margin-top: 60px;
+    font-size: 1em;
 }
 
 .special {
-    color:
-        rgb(255, 84, 0);
-    font-weight: 900;
+    color: rgb(255, 84, 0);
 }
 
-.items-container {
-    /* border: 2px solid green; */
-    width: 50%;
+.header-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-}
-
-.items-container a {
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(66, 66, 71);
-    margin-left: 20px;
+    width: 1750px;
+    margin-left: 75px;
 }
 
 .menu-button {
-    display: none;
+    visibility: hidden;
 }
 
-/* banar section start heare */
+.items-container a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.highlight {
+    color: rgb(255, 84, 0);
+}
+
+.nav-menu {
+    display: flex;
+    gap: 50px;
+    color: rgb(66, 66, 71);
+}
+
+.navigation-links {
+    color: rgb(66, 66, 71);
+    display: flex;
+    flex-direction: row;
+    /* Change the layout to column */
+    gap: 20px;
+}
+
+.navigation-links a {
+    color: rgb(66, 66, 71);
+}
 
 #newsletter {
-    position: relative;
-    /* , linear-gradient(rgba(17, 17, 17, 0), rgba(233, 227, 227, 0)); */
-    background-image:
-        linear-gradient(to bottom, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0)),
-        url('/Images/Group 13 (1) (1).png');
+    background-image: linear-gradient(rgba(17, 17, 17, 0.819), rgba(233, 227, 227, 0.071)), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    width: 100%;
-    max-width: 1170px;
+    background-position: center;
+    position: relative;
+    width: 1200px;
     height: 500px;
-    margin: 40px auto;
-    /* left: 380px;
-    top: 40px; */
-    border-radius: 16px;
-    padding: 40px 20px;
-    box-sizing: border-box;
-}
-
-.main-title {
-    position: relative;
-    width: 576px;
-    left: 275px;
-    top: 20px;
-    color: rgb(255, 255, 255);
-    font-size: 60px;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.description {
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    text-align: center;
-    max-width: 576px;
-    font-weight: 400;
-    margin: 0 auto;
-    top: 5px;
-    /* left: 250px; */
-}
-
-.form {
-    /* margin-top: 400px; */
-    display: flex;
-    margin: 0 auto;
-    /* flex-direction: column; */
-    /* align-items: center; */
-    margin-top: 30px;
-    width: 70%;
-
-}
-
-.form input,
-.form select,
-.form button {
-    width: 100%;
-    max-width: 250px;
-    /* margin: 100px 0; */
-    /* padding: 10px; */
-    margin-left: 20px;
-
-}
-
-.go {
-    position: relative;
-    width: 30px;
-    height: 32px;
-    border-radius: 10px;
-    height: 52px;
-}
-
-.select-time {
-    position: relative;
-    width: 40%;
-    height: 55px;
-    border-radius: 10px;
-
-}
-
-.select-season {
-    position: relative;
-    width: 40%;
-    height: 55px;
-    border-radius: 10px;
+    left: 350px;
+    margin-left: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .btn-find {
-    position: relative;
-    width: 40%;
-    height: 58px;
-    border-radius: 10px;
-    background: rgb(255, 84, 0);
-}
-
-#popular-tours {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    /* margin-left: 50px; */
-    gap: 55px;
-}
-
-.tours {
-    position: relative;
-    width: 577px;
-    height: auto;
-    /* height: 466px; */
-    /* left: 350px; */
-}
-
-.mountain img {
-    /* left: 1200px; */
-    width: 100%;
-    height: auto;
-    max-width: 577px;
-}
-
-.btn-color {
-    color: aliceblue;
+    background-color: #ff5733;
+    color: white;
     border: none;
+    padding: 10px 20px;
 }
 
-.btn {
-    position: relative;
-    width: 200px;
-    height: 58px;
-    left: 0px;
-    bottom: -200px;
-    background: rgb(255, 84, 0);
-    border-radius: 12px;
-
+.btn-find:hover {
+    background-color: #e14c3a;
 }
 
-.destination-section {
+.btn-find {
+    background-color: #ff5733;
+    /* আপনার পছন্দমত রঙ দিন */
+    color: white;
+    /* টেক্সট রঙ */
+    border: none;
+    /* বর্ডার সরানোর জন্য */
+    padding: 10px 20px;
+    /* প্যাডিং যোগ করার জন্য */
+    border-radius: 8px;
+    /* বর্ডার রেডিয়াস যোগ করার জন্য */
+    cursor: pointer;
+    /* পয়েন্টার কার্সর যোগ করার জন্য */
+    font-size: 16px;
+    /* ফন্ট সাইজ */
+}
+
+/* হোভার ইফেক্ট যোগ করতে চাইলে */
+.btn-find:hover {
+    background-color: #e14c3a;
+    /* হোভার অবস্থায় রঙ পরিবর্তন */
+}
+
+.main-title {
+    position: absolute;
     text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
-.card-maldives {
-    position: relative;
-    display: inline-block;
-}
-
-.card-maldives img {
-    width: 100%;
-    display: block;
-}
-
-.banner-name-1 {
+.description {
     position: absolute;
-    bottom: 110px;
-    left: 245px;
+    text-align: center;
+    width: 676px;
+    top: 30%;
+    left: 25%;
+    color: floralwhite;
+}
+
+.form {
+    position: absolute;
+    display: flex;
+
+    gap: 10px;
+    top: 50%;
+    left: 20%;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
 
 }
 
-.maldives-color {
+
+.go {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding-left: 10px;
+}
+
+.select-time {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding-left: 10px;
+}
+
+.select-season {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding-left: 10px;
+}
+
+.btn-find {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding-left: 10px;
+}
+
+.popular-tours-section {
+    display: flex;
+    gap: 80px;
+    margin: 0 auto;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.section-header {
+    font-size: 40px;
+}
+
+.section-subheader {
+    width: 577px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.7);
+}
+
+.custom-list {
+    width: 525px;
+    height: 188px;
+    color: rgba(19, 19, 24, 0.7);
+}
+
+.additional-info {
+    width: 530px;
+    height: 104px;
+    color: rgba(19, 19, 24, 0.7);
+}
+
+.custom-button {
+    padding: 15px 32px;
+    background-color: #e14c3a;
+    border: none;
+    border-radius: 8px;
     color: white;
-}
-
-.card-Indonesia {
-    position: relative;
-    display: inline-block;
-}
-
-.banner-name-2 {
-    position: absolute;
-    bottom: 110px;
-    left: 245px;
-}
-
-.Indonesia-clor {
-    color: white;
-}
-
-.snk{
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    margin-top: 23px;
-}
-.card-name-6{
-    
-}
-
-.bangladesh{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-
-.card-name-6{
-    position: relative;
-    display: inline-block;
-}
-
-.card{
-    position: relative;
-    display: inline-block;
-}
-
-.card-img{
-    width: 100%;
-    display: block;
-}
-
-.card-name-6,card-name-7,card-name-9,card-name-11,card-name0-10{
-    position: absolute;
-    bottom: 110px;
-    left: 245px;
 }

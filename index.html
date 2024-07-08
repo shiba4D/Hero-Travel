@@ -10,6 +10,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .menu-button {
+            display: inline-block;
+            padding: 10px;
+            font-size: 34px;
+        }
+    </style>
 </head>
 
 <body>
@@ -23,33 +36,46 @@
                 </p>
             </div>
             <div class="items-container">
-                <a href="">Home</a>
-                <a href="">Packages</a>
-                <a href="">Testimonial</a>
-                <a href="">Blog</a>
-                <a href="">Contact</a>
 
+                <div class="nav-menu">
+                    <a href=""><span class="highlight">Home</span></a>
+                    <div class="navigation-links">
+                        <a href="">Packages</a>
+                        <a href="">Testimonial</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
                 <div class="menu-button">
                     <label for="">
                         <i class="fas fa-bars"></i>
                     </label>
                 </div>
             </div>
-
         </nav>
-
         <!-- nav bar setion end heare -->
     </header>
-
     <main>
         <section id="newsletter">
-
             <div class="container">
                 <div class="section-heading">
                     <h1 class="main-title">Explore Your Travel</h1>
+                    <style>
+                        .main-title {
+                            position: absolute;
+                            text-align: center;
+                            font-size: 64px;
+                            font-weight: 800;
+                            color: rgb(255, 255, 255);
+                            top: 10%;
+                            left: 53%;
+                            transform: translate(-50%, -50%);
+
+                        }
+                    </style>
                     <p class="description">Travel is the key that unlocks a treasure trove of experiences. It allows
                         us to venture beyond the boundaries of our everyday lives and immerse ourselves in the
-                        richness of different cultures, histories, and landscapes. </p>
+                    </p>
                     <form class="form">
                         <input type="text" placeholder="Where go" class="go">
                         <br>
@@ -69,97 +95,57 @@
                             <option value="Winter">winter</option>
                         </select>
                         <br>
-                        <button class="btn-find"><i class="fa-solid fa-magnifying-glass-location"></i>Find
-                            now</button>
+                        <div class="btn-color">
+                            <button class="btn-find"><i class="fa-solid fa-magnifying-glass-location"></i>Find
+                                now</button>
+                        </div>
                     </form>
                 </div>
             </div>
+            <style>
+                .btn-find {
+                    background-color: #ff5733;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-size: 16px;
+                }
 
+                .btn-find:hover {
+                    background-color: #e14c3a;
+                }
+            </style>
         </section>
 
-        <section id="popular-tours">
-
-            <div class="tours">
-                <h1 class="popular-tours__title">Our Popular Tours</h1>
-                <p class="popular-tours__description">tours travel all around the world. Explore our collection of
-                    popular tours and destinations to find the perfect educational travel ..</p>
-                <ul class="popular-tours__list">
-                    <li>While all of our tours receive top ranks, there are a select bunch that always rise to the top
-                        of our customer favorites list.</li>
-                    <li> Iceland · Portugal · The Galapagos Islands · Tuscany & Cinque Terre · Morocco · Cuba · Amalfi
-                        Coast & Capri · Greece.</li>
-                    <li>Dhaka Popular Travel, in the heart of Dhaka centre since 2021, provides first rate personalized
-                        services to all our clients and ..</li>
+        <section class="popular-tours-section">
+            <div class="content-container">
+                <h1 class="section-header">Our Popular Tours</h1>
+                <h4 class="section-subheader">If you’re ready to inspire what’s next for your students, this is the
+                    perfect
+                    place to start.The
+                    itineraries in this travel collection</h4>
+                <ul class="custom-list">
+                    <li>
+                        Explore the chaos of old dhaka with the expertise from our guides. We will be visiting Dhaka's
+                        oldest buildings.</li>
+                    <li>Dhaka is the capital city of Bangladesh, in southern Asia. Set beside the Buriganga River, it’s
+                        at the center of.</li>
+                    <li> In this all inclusive Old Dhaka and Ship Breaking Yard Trip we let you explore most of the
+                        tourist attractions.
                 </ul>
-                The best free blog websites can help you to promote your work to a wider audience without the cost
-                associated with opting for a full-blown website of
+                <h4 class="additional-info">
+                    Habitant adipiscing risus
+                    natoque aliquet. Id bibendum nunc senectus semper tincidunt.
+                </h4>
 
-                <div>
-                    <button class="btn">
-                        <div class="btn-color">Read More</div>
-                    </button>
-                </div>
+                <button class="custom-button">Read More</button>
             </div>
-            <div class="mountain">
+            <div class="image-container">
                 <img src="/Images/Rectangle 4.png" alt="">
             </div>
-
         </section>
-
-        <section class="destination-section">
-            <h1 class="destination-title">Choose Your Destination</h1>
-            <p class="destination-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio
-                sit massa. Sodales dictumst nec nibh pellentesque.</p>
-
-            <div class="image-container">
-                <div class="card-maldives">
-                    <img src="/Images/Rectangle 5.png" alt="">
-                    <div class="banner-name-1">
-                        <h1 class="maldives-color">Maldives</h1>
-                    </div>
-                </div>
-
-                <div class="card-Indonesia">
-                    <img src="/Images/Rectangle 8.png" alt="">
-                    <div class="banner-name-2">
-                        <h1 class="Indonesia-clor">Indonesia</h1>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section>
-            <div class="container">
-                <div class="snk">
-                    <div class="card">
-                        <img src="/Images/Rectangle 6.png" alt="">
-                        <p class="card-name-6">Srilanka</p>
-                    </div>
-                    <div class="card">
-                        <img src="/Images/Rectangle 7.png" alt="">
-                        <p class="card-name-7">North America</p>
-                    </div>
-                    <div class="card">
-                        <img src="/Images/Rectangle 9.png" alt="">
-                        <p class="card-name-9">Kashmir</p>
-                    </div>
-                </div>
-                
-                <div class="bangladesh">
-                    <div class="card">
-                        <img src="/Images/Rectangle 11.png" alt="">
-                        <p class="card-name-11">Bangladesh</p>
-                    </div>
-                    <div class="card">
-                        <img src="/Images/Rectangle 10.png" alt="">
-                        <p class="card-name0-10">Bandarban</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
     </main>
     <footer></footer>
 </body>
