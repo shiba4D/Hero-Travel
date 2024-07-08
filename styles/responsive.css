@@ -7,6 +7,7 @@
         margin-left: 1390px;
         margin-bottom: 100px;
     }
+
     .nav-container {
         /* flex-direction: column; */
         align-items: center;
@@ -17,15 +18,18 @@
         font-size: 100px;
         /* padding: 10px; */
     }
-    .nav-container p{
+
+    .nav-container p {
         margin-bottom: -400px;
         font-size: 1em;
     }
-    .nav-container img{
+
+    .nav-container img {
         width: 160px;
         margin-top: 400px;
     }
-    .fas fa-bars{
+
+    .fas fa-bars {
         font-size: large;
     }
 
@@ -39,7 +43,7 @@
         padding-top: 10px;
         /* margin-left: 400px; */
     }
-    
+
     .main-title {
         font-size: 32px;
         top: 10%;
@@ -68,9 +72,11 @@
         border-radius: 46px;
         background-position: center;
     }
-    .fa-solid fa-magnifying-glass-location{
+
+    .fa-solid fa-magnifying-glass-location {
         font-size: 5px;
     }
+
     .form {
         flex-direction: column;
         margin-left: 100px;
@@ -96,11 +102,13 @@
         padding-left: 10px;
         font-size: 50px;
     }
-    .go{
+
+    .go {
         width: 540px;
         height: 102px;
         font-size: 50px;
     }
+
     .select-season {
         width: 554px;
         height: 102px;
@@ -119,7 +127,54 @@
         font-size: 50px;
     }
 
-    .popular-tours-section{
+    .popular-tours-section {
         flex-direction: column;
+        width: 495px;
+        height: 150px;
+    }
+
+    .section-subheader {
+        width: 877px;
+        height: 152px;
+        font-size: 35px;
+        font-weight: 400;
+        color: rgba(19, 19, 24, 0.7);
+    }
+
+    .custom-list {
+        width: 877px;
+        height: 152px;
+        font-size: 35px;
+        font-weight: 400;
+        color: rgba(19, 19, 24, 0.7);
+        line-height: 47px;
+    }
+
+    .additional-info {
+        width: 830px;
+        height: 154px;
+        font-size: 35px;
+        color: rgba(19, 19, 24, 0.7);
+    }
+
+    .custom-button {
+        padding: 15px 32px;
+        background-color: #e14c3a;
+        border: none;
+        border-radius: 18px;
+        color: white;
+        width: 584px;
+        height: 140px;
+    }
+
+    .btn {
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .responsive-image {
+        /* position: absolute; */
+        width: 935px;
+        height: 842px;
     }
 }
