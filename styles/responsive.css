@@ -177,4 +177,38 @@
         width: 935px;
         height: 842px;
     }
+
+    .destination-container {
+        margin-top: 1750px;
+    }
+
+    .destination-title {
+
+        font-size: 65px;
+        font-weight: 800;
+        width: 878px;
+        height: 50px;
+        margin-left: 470px;
+    }
+
+    .destination-description {
+        width: 678px;
+        height: 50px;
+        font-size: 35px;
+        font-weight: 800;
+        margin-left: 470px;
+        text-align: center;
+        color: rgba(19, 19, 24, 0.7);
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+        /* margin-left: 830px; */
+    }
+
+    /* .gallery img{
+        width: 100%;
+    } */
+    
 }

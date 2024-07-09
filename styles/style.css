@@ -216,3 +216,36 @@
     color: white;
 }
 
+.destination-container {
+    margin-top: 100px;
+}
+
+.destination-title {
+    margin-left: 770px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.destination-description {
+    margin-left: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.7);
+}
+
+.text-overlay {
+    position: absolute;
+    transform: translate(229px, -170px);
+    width: 120px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+/* .gallery {
+    display: flex;
+    margin-left: 350px;
+    gap: 30px;
+} */
