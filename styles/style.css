@@ -263,7 +263,7 @@
 
 .text-sri{
     color: #ffff;
-    transform: translate(140px, -150px);
+    transform: translate(150px, -150px);
     font-size: 28px;
     font-weight: 800;
 }
@@ -293,25 +293,22 @@
     font-size: 25px;
     font-weight: 800;
     transform: translate(190px, -170px);
-    
 }
 
-.text-bandar{
+.text-banda{
     color: white;
     font-size: 25px;
     font-weight: 800;
     transform: translate(260px, -165px);
 }
 
-.shi-maldives{
-    
+.img-n-amirica{
+    width: 450px;
+    height: 287px;
+    margin-left: 5px;
 }
-/* .gallery {
-    display: grid;
-    grid-template-areas: 'header header';
-    margin-left: 350px;
-    gap: 1%;
-    row-gap: 1px;
-    justify-content: space-evenly;
 
-} */
+.Kashmir-img{
+    width: 285px;
+    height: 287px;
+}

@@ -201,29 +201,29 @@
         color: rgba(19, 19, 24, 0.7);
     }
 
-    .image-Mal-Indo{
+    .image-Mal-Indo {
         display: flex;
         flex-direction: column;
         margin-left: 500px;
         gap: 30px;
     }
-   
-    .image-Mal-Indo{
+
+    .image-Mal-Indo {
         display: flex;
         gap: 75px;
     }
 
-    .Maldives-img{
+    .Maldives-img {
         width: 100%;
     }
 
-    .shi-maldives{
+    .shi-maldives {
         width: 900px;
         height: 450px;
         transform: translate(-120px);
     }
 
-    .shi-indo{
+    .shi-indo {
         width: 900px;
         height: 450px;
         transform: translate(-120px);
@@ -240,7 +240,7 @@
         font-weight: 800;
     }
 
-    .img-snk{
+    .img-snk {
         display: flex;
         flex-direction: column;
         margin-left: 350px;
@@ -248,10 +248,74 @@
         margin-top: 30px;
     }
 
-    .img-sri{
+    .img-sri {
         margin-left: 30px;
         margin-top: 36px;
         width: 900px;
         height: 450px;
+    }
+
+    .text-ame {
+        /* position: absolute; */
+        font-size: 68px;
+        width: 440px;
+        transform: translate(250px,-250px);
+        height: 25px;
+    }
+
+    .text-sri {
+        color: #ffff;
+        transform: translate(350px, -270px);
+        font-size: 68px;
+        font-weight: 800;
+    }
+
+    .img-n-amirica{
+        width: 900px;
+        height: 450px;
+        margin-left: 25px;
+
+    }
+
+    .Kashmir-img{
+        width: 1800%;
+        height: 450px;
+        margin-left: 20px;
+    }
+
+    .text-kas{
+        color: #ffff;
+        transform: translate(350px, -260px);
+        font-size: 75px;
+        font-weight: 800;
+    }
+
+    .bb-image{
+        display: flex;
+        flex-direction: column;
+        margin-left: 350px;
+        gap: 30px;
+    }
+
+    .img-bangladesh{
+        width: 900px;
+        height: 450px;
+    }
+
+    .text-ban{
+        font-size: 75px;
+        font-weight: 800;
+        transform: translate(270px, -260px);
+    }
+
+    .img-Bandarban{
+        width: 900px;
+        height: 450px;
+    }
+
+    .text-banda{
+        font-size: 75px;
+        font-weight: 800;
+        transform: translate(270px, -260px);
     }
 }
