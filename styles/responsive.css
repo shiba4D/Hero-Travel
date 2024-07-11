@@ -201,14 +201,57 @@
         color: rgba(19, 19, 24, 0.7);
     }
 
-    .gallery {
+    .image-Mal-Indo{
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        /* margin-left: 830px; */
+        margin-left: 500px;
+        gap: 30px;
+    }
+   
+    .image-Mal-Indo{
+        display: flex;
+        gap: 75px;
     }
 
-    /* .gallery img{
+    .Maldives-img{
         width: 100%;
-    } */
-    
+    }
+
+    .shi-maldives{
+        width: 900px;
+        height: 450px;
+        transform: translate(-120px);
+    }
+
+    .shi-indo{
+        width: 900px;
+        height: 450px;
+        transform: translate(-120px);
+    }
+
+
+    .text-overlay {
+        position: absolute;
+        transform: translate(229px, -250px);
+        width: 120px;
+        height: 35px;
+        color: rgb(255, 255, 255);
+        font-size: 68px;
+        font-weight: 800;
+    }
+
+    .img-snk{
+        display: flex;
+        flex-direction: column;
+        margin-left: 350px;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .img-sri{
+        margin-left: 30px;
+        margin-top: 36px;
+        width: 900px;
+        height: 450px;
+    }
 }

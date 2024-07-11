@@ -235,17 +235,83 @@
 
 .text-overlay {
     position: absolute;
-    transform: translate(229px, -170px);
+    transform: translate(200px, -160px);
     width: 120px;
     height: 35px;
     color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: 800;
-
 }
 
-/* .gallery {
+.Maldives-img {
+    /* width: 535px;
+    height: 276px; */
+}
+
+.image-Mal-Indo{
+    display: flex;
+    gap: 30px;
+    margin-left: 350px;
+}
+
+.img-snk{
     display: flex;
     margin-left: 350px;
     gap: 30px;
+    margin-top: 30px;
+}
+
+.text-sri{
+    color: #ffff;
+    transform: translate(140px, -150px);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text-ame{
+    color: #ffff;
+    transform: translate(140px, -150px);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text-kas{
+    color: #ffff;
+    transform: translate(90px, -150px);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.bb-image{
+    display: flex;
+    margin-left: 350px;
+    gap: 30px;
+}
+
+.text-ban{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    transform: translate(190px, -170px);
+    
+}
+
+.text-bandar{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    transform: translate(260px, -165px);
+}
+
+.shi-maldives{
+    
+}
+/* .gallery {
+    display: grid;
+    grid-template-areas: 'header header';
+    margin-left: 350px;
+    gap: 1%;
+    row-gap: 1px;
+    justify-content: space-evenly;
+
 } */
