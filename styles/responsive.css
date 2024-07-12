@@ -318,4 +318,11 @@
         font-weight: 800;
         transform: translate(270px, -260px);
     }
+
+    .Choose-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 800px;
+    }
 }

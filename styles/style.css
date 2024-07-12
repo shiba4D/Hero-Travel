@@ -248,67 +248,92 @@
     height: 276px; */
 }
 
-.image-Mal-Indo{
+.image-Mal-Indo {
     display: flex;
     gap: 30px;
     margin-left: 350px;
 }
 
-.img-snk{
+.img-snk {
     display: flex;
     margin-left: 350px;
     gap: 30px;
     margin-top: 30px;
 }
 
-.text-sri{
+.text-sri {
     color: #ffff;
     transform: translate(150px, -150px);
     font-size: 28px;
     font-weight: 800;
 }
 
-.text-ame{
+.text-ame {
     color: #ffff;
     transform: translate(140px, -150px);
     font-size: 28px;
     font-weight: 800;
 }
 
-.text-kas{
+.text-kas {
     color: #ffff;
     transform: translate(90px, -150px);
     font-size: 28px;
     font-weight: 800;
 }
 
-.bb-image{
+.bb-image {
     display: flex;
     margin-left: 350px;
     gap: 30px;
 }
 
-.text-ban{
+.text-ban {
     color: white;
     font-size: 25px;
     font-weight: 800;
     transform: translate(190px, -170px);
 }
 
-.text-banda{
+.text-banda {
     color: white;
     font-size: 25px;
     font-weight: 800;
     transform: translate(260px, -165px);
 }
 
-.img-n-amirica{
+.img-n-amirica {
     width: 450px;
     height: 287px;
     margin-left: 5px;
 }
 
-.Kashmir-img{
+.Kashmir-img {
     width: 285px;
     height: 287px;
+}
+
+#taitle {
+    width: 351px;
+    height: 50px;
+    font-size: 40px;
+}
+
+#description {
+    width: 643px;
+    height: 52px;
+    font-size: 14px;
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+}
+
+.Choose-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon8{
+    width: 70px;
+    height: 70px;
 }
