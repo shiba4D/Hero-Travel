@@ -259,7 +259,7 @@
         /* position: absolute; */
         font-size: 68px;
         width: 440px;
-        transform: translate(250px,-250px);
+        transform: translate(250px, -250px);
         height: 25px;
     }
 
@@ -270,59 +270,155 @@
         font-weight: 800;
     }
 
-    .img-n-amirica{
+    .img-n-amirica {
         width: 900px;
         height: 450px;
         margin-left: 25px;
 
     }
 
-    .Kashmir-img{
+    .Kashmir-img {
         width: 1800%;
         height: 450px;
         margin-left: 20px;
     }
 
-    .text-kas{
+    .text-kas {
         color: #ffff;
         transform: translate(350px, -260px);
         font-size: 75px;
         font-weight: 800;
     }
 
-    .bb-image{
+    .bb-image {
         display: flex;
         flex-direction: column;
         margin-left: 350px;
         gap: 30px;
     }
 
-    .img-bangladesh{
+    .img-bangladesh {
         width: 900px;
         height: 450px;
     }
 
-    .text-ban{
+    .text-ban {
         font-size: 75px;
         font-weight: 800;
         transform: translate(270px, -260px);
     }
 
-    .img-Bandarban{
+    .img-Bandarban {
         width: 900px;
         height: 450px;
     }
 
-    .text-banda{
+    .text-banda {
         font-size: 75px;
         font-weight: 800;
         transform: translate(270px, -260px);
     }
 
-    .Choose-container{
+    .Choose-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-left: 800px;
+    }
+
+    .taitle {
+
+        width: 309px;
+        height: 72px;
+    }
+
+    #description {
+        width: 409px;
+        height: 72px;
+        font-size: 14px;
+        color: rgba(19, 19, 24, 0.7);
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 300px;
+
+    }
+
+    .hotel-info {
+
+        width: 886px;
+        height: 124px;
+        background: rgba(251, 181, 99, 0.05);
+        border: 1px solid rgba(251, 181, 99, 0.2);
+        box-sizing: border-box;
+        border-radius: 13px;
+        line-height: 10px;
+    }
+
+    .icon8 {
+        margin-left: 20px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .hand {
+        font-size: 65px;
+        margin-left: 20px;
+    }
+
+    .hotel-description {
+        margin-left: 20px;
+        color: rgb(90, 90, 93);
+        font-size: 5px;
+        width: 1000px;
+        height: 500px;
+        line-height: 10px;
+    }
+
+    /* .section-subheading-guarantee {
+        width: 986px;
+        height: 78px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: rgb(90, 90, 93);
+    } */
+
+    .section-subheading-guarantee {
+        width: 886px;
+        height: 98px;
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    .section-heading-Guarantee {
+        /* background-color: rgba(233, 68, 68, 0.2); কম স্বচ্ছ */
+        /* margin-top: 15px; */
+        /* padding: 15px; মোবাইল ভিউর জন্য প্যাডিং বৃদ্ধি */
+        /* font-size: 20px; মোবাইল ভিউর জন্য ফন্ট সাইজ বৃদ্ধি */
+    }
+
+
+    /* deals-section start */
+    .deals-title {
+        margin-left: 550px;
+        margin-top: 300px;
+        font-size: 70px;
+        font-weight: 800;
+        width: 651px;
+        height: 70px;
+    }
+
+    .deals-description {
+        width: 900px;
+        height: 52px;
+        margin-left: 350px;
+        color: rgba(19, 19, 24, 0.7);
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
     }
 }
