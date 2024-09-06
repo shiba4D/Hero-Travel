@@ -1,7 +1,7 @@
 /* Mulish font from google font */
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans:wght@700&display=swap');
-</style>
+
 
 * {
     // <uniquifier>: Use a unique and descriptive class name
@@ -13,4 +13,13 @@
   font-weight: <weight>;
   font-style: normal;
 }
+}
+
+/* header styles */
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav a{
+  text-decoration: none;
 }
