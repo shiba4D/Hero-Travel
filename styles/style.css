@@ -2,24 +2,51 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans:wght@700&display=swap');
 
-
 * {
-    // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 1000
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 200 to 1000
 
-.mulish-custom {
-  font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+  .mulish-custom {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
 }
 
 /* header styles */
-nav{
-  display: flex;
-  justify-content: space-between;
+.text-primary {
+  color: rgb(255, 84, 0);
 }
-nav a{
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iht {
+  display: flex;
+  gap: 17px;
+  font-size: 36px;
+  font-weight: 700;
+  align-items: center;
+}
+
+nav>ul {
+  display: flex;
+  margin-right: 15px;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 45px;
+}
+
+nav a {
   text-decoration: none;
+  color: rgb(66, 66, 71);
+  font-size: 18px;
+  font-weight: 400;
+
 }
