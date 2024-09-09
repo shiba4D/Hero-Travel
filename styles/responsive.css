@@ -1,14 +1,18 @@
 @media screen and (max-width: 576px) {
-    .nav-container {
+    nav {
         display: flex;
         flex-direction: row;
         gap: 20px;
         font-size: 26px;
         font-weight: 800;
         padding-top: 30px;
-        justify-content: center;
+        justify-content: space-around;
+        overflow: hidden;
     }
-    .nav-menu{
+
+    nav>ul {
         visibility: hidden;
-    }
+        margin-right: 15px;
+      }    
+      
 }

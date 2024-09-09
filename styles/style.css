@@ -1,5 +1,4 @@
 /* Mulish font from google font */
-
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans:wght@700&display=swap');
 
 * {
@@ -31,6 +30,9 @@ nav {
   font-size: 36px;
   font-weight: 700;
   align-items: center;
+}
+.hero{
+  display: flex;
 }
 
 nav>ul {
