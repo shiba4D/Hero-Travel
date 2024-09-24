@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <ul>
+            <ul id="menu">
                 <li><a href="">Home</a></li>
                 <li><a href="">Packages</a></li>
                 <li><a href="">Testimonial</a></li>
@@ -33,7 +33,7 @@
                     </label>
                 </div> -->
         </nav>
-        
+
         <div class="banner-section">
             <h1 class="section-taitle">
                 Explore Your Travel
@@ -42,24 +42,62 @@
                 Travel is the key that unlocks a treasure trove of experiences. It allows
                 us to venture beyond the boundaries of our everyday lives and immerse ourselves in the
             </p>
-            <input type="text" placeholder="Where go" class="go">
-            <select name="" id="">
-                <option value="">When</option>
-                <option value="">who</option>
-                <option value="">how</option>
-                <option value="">Where</option>
-            </select>
-            <select name="" id="">
-                <option value="spring">Spring</option>
-                <option value="Summer">summer</option>
-                <option value="Fall">fall</option>
-                <option value="Winter">winter</option>
-            </select>
-            <button>Find now</button>
+
+            <div class="banner-from-container">
+
+                <input type="text" placeholder="Where go" class="go">
+
+                <select name="" id="" class="select-time">
+                    <option value="">When</option>
+                    <option value="">who</option>
+                    <option value="">how</option>
+                    <option value="">Where</option>
+                </select>
+
+                <select name="" id="" class="select-season">
+                    <option value="spring">Spring</option>
+                    <option value="Summer">summer</option>
+                    <option value="Fall">fall</option>
+                    <option value="Winter">winter</option>
+                </select>
+
+                <button class="btn-primary">Find now</button>
+
+            </div>
+
         </div>
     </header>
-    <main>
 
+    <main>
+        <section class="popular-tours-section">
+            <div class="content-container">
+                <h1 class="section-header">Our Popular Tours</h1>
+                <h4 class="section-subheader">If you’re ready to inspire what’s next for your students, this is the
+                    perfect
+                    place to start.The
+                    itineraries in this travel collection</h4>
+                <ul class="custom-list">
+                    <li>
+                        Explore the chaos of old dhaka with the expertise from our guides. We will be visiting Dhaka's
+                        oldest buildings.</li>
+                    <li>Dhaka is the capital city of Bangladesh, in southern Asia. Set beside the Buriganga River, it’s
+                        at the center of.</li>
+
+
+                </ul>
+                <h4 class="additional-info">
+                    Habitant adipiscing risus
+                    natoque aliquet. Id bibendum nunc senectus semper tincidunt.
+                </h4>
+
+                <button class="custom-button">
+                    <div class="btn">Read More</div>
+                </button>
+            </div>
+            <div class="image-container">
+                <img src="/Images/Rectangle 4.png" alt="" class="responsive-image">
+            </div>
+        </section>
     </main>
     <footer>
 

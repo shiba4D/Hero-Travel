@@ -10,9 +10,37 @@
         overflow: hidden;
     }
 
-    nav>ul {
+    /* nav>ul {
         visibility: hidden;
         margin-right: 15px;
-      }    
-      
+      }     */
+
+    #menu {
+        display: none;
+    }
+
+    .banner-section {
+        padding: 0px;
+    }
+
+    .banner-from-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        /* flex-grow: 1; */
+    }
+
+    .go,
+    .select-time,
+    .select-season,
+    .btn-primary {
+        width: 70%;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .section-taitle {
+        font-size: 22px;
+    }
 }

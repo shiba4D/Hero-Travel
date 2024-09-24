@@ -14,14 +14,6 @@
 }
 
 /* common shared style */
-.section-taitle {
-  color: rgb(255, 255, 255);
-  font-family: Mulish;
-  font-size: 64px;
-  font-weight: 800;
-  line-height: 80px;
-  text-align: center;
-}
 
 .section-description {
   color: rgb(255, 255, 255);
@@ -32,9 +24,31 @@
   text-align: center;
 }
 
-/* header styles */
 .text-primary {
   color: rgb(255, 84, 0);
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  border: 0;
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  padding: 14px 35px;
+
+}
+
+/* header styles */
+.section-taitle {
+  color: rgb(255, 255, 255);
+  font-family: Mulish;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 80px;
+  text-align: center;
+
 }
 
 nav {
@@ -80,16 +94,66 @@ nav a {
   background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
   background-repeat: no-repeat;
   background-position: center;
-  
 }
-
-
 
 .go {
   width: 174px;
   height: 52px;
   border-radius: 8px;
   background: rgb(255, 255, 255);
-  /* border: none; */
+  border: none;
   padding-left: 10px;
 }
+
+.select-time {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  padding-left: 10px;
+}
+
+.select-season {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  padding-left: 10px;
+}
+
+.banner-from-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 17px 10px;
+  width: 710px;
+  margin: 0 auto;
+  /* margin-top: 50px; */
+  border-radius: 8px;
+}
+
+.go {
+  margin-right: 5px;
+}
+
+.select-time {
+  margin-right: 7px;
+}
+
+.select-season {
+  margin-right: 6px,
+}
+
+.btn-primary {
+  margin-right: 8px;
+}
+
+.popular-tours-section {
+  display: flex;
+  gap: 80px;
+  margin: 0 auto;
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
